@@ -1,0 +1,23 @@
+{
+  "name": "exercise0",
+  "version": "1.0.0",
+  "description": "Exercise 0 in Web Services course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eldad7/nodeFirstPractice.git"
+  },
+  "author": "Eldad C.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eldad7/nodeFirstPractice/issues"
+  },
+  "homepage": "https://github.com/Eldad7/nodeFirstPractice#readme",
+  "dependencies": {
+    "events": "^1.1.1"
+  },
+  "devDependencies": {}
+}

@@ -15,7 +15,6 @@ http.createServer(function (req,res) {
 	video.voteDown();
 	data = video.getInfo();
 	res.writeHeader(200);
-	//res.write(data);
 	res.end(data);
 }).listen(8080);
 console.log('listening on port 8080');

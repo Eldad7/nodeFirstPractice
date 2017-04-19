@@ -38,13 +38,18 @@ class Video extends events.EventEmitter{
 	}
 
 	getInfo(){
-		console.log(`Name: ${this.name}, Category: ${this.category}, Total rating: ${this.rating}, Total raters: ${this.raters}
+		var info = `Name: ${this.name}, Category: ${this.category}, Total rating: ${this.rating}, Total raters: ${this.raters}
 
 All Messages:
-`);
+`
+		
 		for (var i=0; i<this.logArray.length; i++)
-			console.log(this.logArray[i]);
+			info += `${this.logArray[i]}
+`;
+		console.log(info);
+		return info;
 	}
+
 
 	ratingStats(){
 		var stats = `${this.name} rated!! total rating ${this.rating}
